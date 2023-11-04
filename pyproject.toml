@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "calendar-automation"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "calendar_automation"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-api-python-client = "^2.97.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^1.0.0"
+textual = "^0.40.0"
+textual-dev = "^1.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
