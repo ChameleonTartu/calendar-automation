@@ -422,6 +422,9 @@ multidict==6.0.4 ; python_version >= "3.8" and python_version < "4.0" \
 oauthlib==3.2.2 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca \
     --hash=sha256:9859c40929662bec5d64f34d01c99e093149682a3f38915dc0655d5a633dd918
+plac==1.4.1 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:5b02d38cfb07c6b95d9803dfdd108a618fdb4691c1759b9156bfb34e566d28c4 \
+    --hash=sha256:8276d038466f22210ca4f7fa0b270473bea2ec85fff495de179f56934372d5fa
 protobuf==4.24.0 ; python_version >= "3.8" and python_version < "4.0" \
     --hash=sha256:44825e963008f8ea0d26c51911c30d3e82e122997c3c4568fd0385dd7bacaedf \
     --hash=sha256:567fe6b0647494845d0849e3d5b260bfdd75692bf452cdc9cb660d12457c055d \

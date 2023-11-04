@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 import datetime as dt
 
 import random
+import plac
 
 
 def dates_range(start_date, end_date, filename):
@@ -25,8 +26,7 @@ def check_date(filename):
     print(f'Take task from this date: {random_date}')
     return random_date
 
-
-if __name__ == '__main__':
+def execute_tasks_in_period():
     filename = 'processed_dates.txt'
     while True:
         date = check_date(filename)
@@ -34,3 +34,7 @@ if __name__ == '__main__':
         if answer == 'y':
             with open(filename, 'a') as file_with_dates:
                 file_with_dates.write(f"{date}\n")
+
+
+if __name__ == '__main__':
+    plac.call(execute_tasks_in_period)

@@ -13,6 +13,7 @@ google-auth-httplib2 = "^0.1.0"
 google-auth-oauthlib = "^1.0.0"
 textual = "^0.40.0"
 textual-dev = "^1.2.1"
+plac = "^1.4.1"
 
 
 [tool.poetry.group.dev.dependencies]
