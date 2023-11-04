@@ -26,7 +26,7 @@ We are using `pyenv` and `poetry`. As long as you have `poetry` installed do:
 
 ```
 poetry install
-poetry run src/schedule_planner.py
+poetry run python src/schedule_planner.py
 ```
 
 ### Notes
